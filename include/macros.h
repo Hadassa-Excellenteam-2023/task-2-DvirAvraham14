@@ -3,8 +3,9 @@
 const bool WHITE = true;
 const bool BLACK = false;
 
-
-
+/**
+ * @brief A struct that represents a position on the board.
+ */
 struct Position {
     int row;
     int col;
@@ -25,4 +26,16 @@ struct Position {
         col += other.col;
         return *this;
     }
+};
+
+/**
+ * @brief An enum that represents the type of a chess piece.
+ */
+enum ChessPieceType {
+    KING,
+    QUEEN,
+    KNIGHT,
+    PAWN,
+    ROOK,
+    BISHOP,
 };

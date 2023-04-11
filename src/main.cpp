@@ -4,8 +4,8 @@
 
 int main()
 {
-//	string board = "RNBQKBNRPPPPPPPP################################pppppppprnbqkbnr";
-	string board = "R##############R################################pppppppprnbqkbnr";
+ //   string board = "RNBQKBNRPPPPPPPP################################pppppppprnbqkbnr";
+	string board = "R##K####PP##r####################################ppppppprnbqkbn#";
 //	string board = "##########K###############################R#############r#r#####";
 	Chess a(board);
     Board b(board);
